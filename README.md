@@ -128,15 +128,11 @@ kpdl-customer-shopping/
 │       └── ...
 │
 ├── final_report/                     # Báo cáo cuối cùng
-│   ├── final_report.pdf              # Báo cáo hoàn chỉnh (5 chương)
-│   ├── presentation.pptx             # Slide thuyết trình
-│   ├── summary.md                    # Tóm tắt insights
-│   └── final_summary_report.txt      # Auto-generated summary
-│
-└── utils/                            # Shared utilities
-    ├── data_loader.py                # Load data functions
-    ├── visualization.py              # Plot functions
-    └── evaluation_metrics.py         # Metric calculations
+    ├── final_report.pdf              # Báo cáo hoàn chỉnh (5 chương)
+    ├── presentation.pptx             # Slide thuyết trình
+    ├── summary.md                    # Tóm tắt insights
+    └── final_summary_report.txt      # Auto-generated summary
+
 ```
 
 ## Nhóm thực hiện
