@@ -71,7 +71,7 @@ kpdl-customer-shopping/
 │   └── processed/                    # Data đã xử lý
 │       └── cleaned_data.csv
 │
-├── 01_data_preprocessing/            # THÀNH VIÊN 1
+├── 01_data_preprocessing/            # Huỳnh Nhật Thành
 │   ├── data_preprocessing.ipynb      # Main notebook
 │   ├── data_cleaning.py              # Utility functions
 │   ├── preprocessing_report.md       # Báo cáo chi tiết
@@ -105,7 +105,7 @@ kpdl-customer-shopping/
 │       ├── 04_rules_network.png
 │       └── ...
 │
-├── 04_classification_integration/    # THÀNH VIÊN 4
+├── 04_classification_integration/    # Nguyễn Trí Sự
 │   ├── classification_models.ipynb   # Main notebook
 │   ├── model_comparison.py           # Comparison utilities
 │   ├── final_report.ipynb            # Final integration
