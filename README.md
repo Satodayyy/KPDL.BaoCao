@@ -22,12 +22,19 @@ Dự án này thực hiện phân tích toàn diện dữ liệu mua sắm từ 
 - **Association Rules**: Tìm kiếm mối quan hệ giữa các sản phẩm (Market Basket Analysis)
 - **Classification**: Dự đoán danh mục sản phẩm dựa trên đặc điểm khách hàng
 
-###  Mục tiêu
+### Mục tiêu
 
-1. Khám phá patterns ẩn trong hành vi mua sắm của khách hàng
-2. Phân nhóm khách hàng để cá nhân hóa marketing
-3. Tìm ra product combinations cho cross-selling
-4. Dự đoán xu hướng mua sắm dựa trên demographics
+1. Khám phá các mẫu (patterns) ẩn trong hành vi mua sắm của khách hàng.
+2. Phân nhóm khách hàng nhằm hỗ trợ cá nhân hóa chiến lược marketing.
+3. Xác định các tổ hợp sản phẩm thường được mua cùng nhau để phục vụ cross-selling.
+4. Dự đoán xu hướng mua sắm của khách hàng dựa trên các đặc điểm nhân khẩu học.
+
+### Câu hỏi nghiên cứu
+
+1. Những nhóm khách hàng nào có hành vi mua sắm tương đồng?
+2. Những sản phẩm hoặc danh mục sản phẩm nào thường được mua cùng nhau?
+3. Có thể dự đoán danh mục sản phẩm dựa trên đặc điểm của khách hàng hay không?
+4. Xu hướng mua sắm của khách hàng thay đổi theo thời gian như thế nào?
 
 ---
 
