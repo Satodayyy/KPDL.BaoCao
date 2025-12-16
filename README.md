@@ -136,10 +136,10 @@ kpdl-customer-shopping/
 
 | Thành viên | Vai trò | Phần đảm nhận |
 |------------|---------|---------------|
-| **Thành viên 1** | Data Engineer | Data Preprocessing & Feature Engineering |
+| **Huỳnh Nhật Thành** | Data Engineer | Data Preprocessing & Feature Engineering |
 | **Lê Thành Danh** | Data Analyst | EDA & Clustering Analysis |
-| **Thành viên 3** | Data Miner | Association Rules Mining |
-| **Thành viên 4** | ML Engineer | Classification & Integration |
+| **Nguyễn Quốc Thuận** | Data Miner | Association Rules Mining |
+| **Nguyễn Trí Sự** | ML Engineer | Classification & Integration |
 
 ---
 
