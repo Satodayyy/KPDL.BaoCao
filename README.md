@@ -11,7 +11,7 @@
 - [Dataset](#dataset)
 - [Cấu trúc Project](#cấu-trúc-project)
 - [Nhóm thực hiện](#nhóm-thực-hiện)
-
+- [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 ---
 
 ##  Giới thiệu
@@ -145,10 +145,22 @@ kpdl-customer-shopping/
 
 ## Tài liệu tham khảo
 
-1. Dataset: [Customer Shopping Dataset - Kaggle](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset/data)
-2. Scikit-learn Documentation
-3. MLxtend Documentation (Association Rules)
-4. Data Mining: Concepts and Techniques (Han, Kamber, Pei)
+1. Customer Shopping Dataset – Kaggle.  
+   https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset/data
+
+2. Scikit-learn Documentation.  
+   https://scikit-learn.org/stable/
+
+3. MLxtend Documentation – Association Rules.  
+   https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/
+
+4. J. Han, M. Kamber, J. Pei, *Data Mining: Concepts and Techniques*, 3rd Edition, Elsevier, 2011.  
+   https://www.sciencedirect.com/book/9780123814791/data-mining-concepts-and-techniques
+
+5. S. A. Pratama et al., “Customer Segmentation Using RFM Model and K-Means Clustering,”  
+   *INSTINK: Inovasi Teknik Informatika*, vol. 7, no. 2, 2022.  
+   https://journal.unuha.ac.id/index.php/Instink/article/view/4349/1113
+
 
 ---
 
