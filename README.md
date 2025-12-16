@@ -3,8 +3,6 @@
 **Đề tài Khai phá Dữ liệu - Data Mining Course**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ---
 
 ## Mục lục
@@ -151,12 +149,6 @@ kpdl-customer-shopping/
 2. Scikit-learn Documentation
 3. MLxtend Documentation (Association Rules)
 4. Data Mining: Concepts and Techniques (Han, Kamber, Pei)
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
