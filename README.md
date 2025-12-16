@@ -92,7 +92,7 @@ kpdl-customer-shopping/
 │       ├── 06_kmeans_clusters.png
 │       └── ...
 │
-├── 03_association_rules/             # THÀNH VIÊN 3
+├── 03_association_rules/             # Nguyễn Quốc Thuận
 │   ├── association_rules.ipynb       # Main notebook
 │   ├── market_basket_analysis.py     # Apriori/FP-Growth code
 │   ├── association_rules_results.csv # All rules
