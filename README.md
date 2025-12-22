@@ -102,7 +102,7 @@ kpdl-customer-shopping/
 │
 ├── 03_association_rules/             # Nguyễn Quốc Thuận
 │   ├── association_rules.ipynb       # Main notebook
-│   ├── market_basket_analysis.py     # Apriori/FP-Growth code
+│   ├── market_basket_analysis.ipynb  # Apriori/FP-Growth code
 │   ├── association_rules_results.csv # All rules
 │   ├── frequent_itemsets.csv         # Frequent patterns
 │   ├── actionable_insights.csv       # Business insights
