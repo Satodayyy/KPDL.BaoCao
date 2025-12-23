@@ -83,11 +83,9 @@ kpdl-customer-shopping/
 │
 ├── 01_data_preprocessing/            # Huỳnh Nhật Thành
 │   ├── data_preprocessing.ipynb      # Main notebook
-│   ├── data_cleaning.py              # Utility functions
 │   ├── preprocessing_report.md       # Báo cáo chi tiết
 │   ├── label_encoders.pkl            # Saved encoders
 │   └── figures/                      # Visualizations
-│       ├── 01_missing_values.png
 │       └── 02_outliers_detection.png
 │
 ├── 02_eda_clustering/                # Lê Thành Danh
