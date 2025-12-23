@@ -115,21 +115,24 @@ kpdl-customer-shopping/
 │
 ├── 04_classification_integration/    # Nguyễn Trí Sự
 │   ├── classification_models.ipynb   # Main notebook
-│   ├── model_comparison.py           # Comparison utilities
-│   ├── final_report.ipynb            # Final integration
 │   ├── model_decision_tree.pkl       # Saved models
 │   ├── model_random_forest.pkl
 │   ├── model_naive_bayes.pkl
 │   ├── model_comparison_results.csv  # Results
-│   ├── classification_report.md      # Báo cáo chi tiết
 │   └── figures/                      # Visualizations
 │       ├── 01_dt_feature_importance.png
 │       ├── 02_decision_tree_viz.png
+│       ├── 02_decision_tree_viz.png
+│       ├── 03_dt_confusion_matrix.png
+│       ├── 04_rf_feature_importance.png
+│       ├── 05_rf_confusion_matrix.png
+│       ├── 06_nb_confusion_matrix.png
 │       ├── 07_model_comparison.png
-│       └── ...
+│       ├── 08_cross_validation.png
+│       └── 09_per_class_performance.png
 │
 ├── final_report/                     # Báo cáo cuối cùng
-    ├── final_report.pdf              # Báo cáo hoàn chỉnh (5 chương)
+    ├── final_report.pdf              # Báo cáo hoàn chỉnh 
     ├── presentation.pptx             # Slide thuyết trình
     ├── summary.md                    # Tóm tắt insights
     └── final_summary_report.txt      # Auto-generated summary
