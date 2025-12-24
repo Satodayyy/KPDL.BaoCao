@@ -92,7 +92,6 @@ kpdl-customer-shopping/
 │   ├── eda_analysis.ipynb            # EDA notebook
 │   ├── clustering_analysis.ipynb     # Clustering notebook
 │   ├── clustering_results.csv        # Results
-│   ├── eda_clustering_report.md      # Báo cáo chi tiết
 │   └── figures/                      # Visualizations
 │       ├── 01_univariate_analysis.png
 │       ├── 05_elbow_method.png
