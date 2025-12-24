@@ -91,7 +91,6 @@ kpdl-customer-shopping/
 ├── 02_eda_clustering/                # Lê Thành Danh
 │   ├── eda_analysis.ipynb            # EDA notebook
 │   ├── clustering_analysis.ipynb     # Clustering notebook
-│   ├── clustering_models.py          # Model implementations
 │   ├── clustering_results.csv        # Results
 │   ├── eda_clustering_report.md      # Báo cáo chi tiết
 │   └── figures/                      # Visualizations
