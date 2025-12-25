@@ -72,8 +72,6 @@ Xu hướng mua sắm thay đổi như thế nào theo thời gian? Có sự kh�
 kpdl-customer-shopping/
 │
 ├── README.md                          # File này
-├── requirements.txt                   # Python dependencies
-├── .gitignore                         # Git ignore rules
 │
 ├── data/
 │   ├── raw/                          # Data gốc từ Kaggle
@@ -136,7 +134,6 @@ kpdl-customer-shopping/
 ├── final_report/                     # Báo cáo cuối cùng
     ├── final_report.pdf              # Báo cáo hoàn chỉnh 
     ├── presentation.pptx             # Slide thuyết trình
-    ├── summary.md                    # Tóm tắt insights
     └── final_summary_report.txt      # Auto-generated summary
 
 ```
