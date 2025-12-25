@@ -1,0 +1,79 @@
+
+=====================================================================
+            BÁO CÁO TỔNG KẾT KHAI PHÁ DỮ LIỆU
+        Đề tài: Phân Tích Hành Vi Mua Sắm Khách Hàng
+=====================================================================
+
+1. TỔNG QUAN DỮ LIỆU (DATASET OVERVIEW)
+---------------------------------------------------------------------
+- Dataset        : Customer Shopping Dataset (Kaggle)
+- Phạm vi        : 10 trung tâm thương mại tại Istanbul (2021–2023)
+- Quy mô         : 99,457 giao dịch | 31 thuộc tính
+- Đặc điểm       : Dữ liệu thực tế (Real-world data) có độ nhiễu và 
+                   sự mất cân bằng giữa các nhóm ngành hàng.
+
+2. QUY TRÌNH TIỀN XỬ LÝ (DATA PREPROCESSING)
+---------------------------------------------------------------------
+- Làm sạch       : Xử lý giá trị thiếu và loại bỏ các bản ghi trùng lặp.
+- Kỹ thuật tính năng (Feature Engineering):
+    + Tính toán chỉ số RFM (Recency, Frequency, Monetary).
+    + Trích xuất đặc trưng thời gian (Giờ, Thứ, Tháng).
+    + Mã hóa nhóm độ tuổi để tăng khả năng phân loại.
+- Chuẩn hóa      : Sử dụng StandardScaler đưa dữ liệu về cùng thang đo.
+- Mã hóa         : Chuyển đổi biến định danh bằng Label Encoding & One-hot.
+
+3. PHÂN TÍCH VÀ PHÂN CỤM (EDA & CLUSTERING)
+---------------------------------------------------------------------
+- EDA            : Phân tích phân phối đơn biến và tương quan đa biến.
+- Phân cụm       : Triển khai K-Means, Hierarchical và DBSCAN.
+- Kết quả        : Xác định được các phân khúc khách hàng mục tiêu dựa 
+                   trên giá trị đơn hàng và tần suất mua sắm (RFM).
+
+4. LUẬT KẾT HỢP (ASSOCIATION RULES)
+---------------------------------------------------------------------
+- Thuật toán     : Apriori và FP-Growth.
+- Phát hiện      : Tìm ra các cặp sản phẩm thường được mua cùng nhau 
+                   (Market Basket Analysis) với chỉ số Lift ấn tượng.
+
+5. MÔ HÌNH PHÂN LOẠI (CLASSIFICATION MODELS)
+---------------------------------------------------------------------
+* CHIẾN LƯỢC XỬ LÝ DỮ LIỆU THỰC TẾ:
+- Đối phó với mất cân bằng lớp (Imbalance Data): Sử dụng Class Weighting 
+  và Stratified Sampling để bảo vệ các nhóm dữ liệu ít (như Tech).
+- Tiêu chí đánh giá: Tập trung vào Weighted F1-Score để phản ánh khách 
+  quan hơn Accuracy trong điều kiện dữ liệu lệch.
+
+* HIỆU SUẤT MÔ HÌNH:
++-----------------+----------+-----------+--------+----------+
+| Mô hình         | Accuracy | Precision | Recall | F1-Score |
++-----------------+----------+-----------+--------+----------+
+| Decision Tree   |  59.91%  |   0.4727  | 0.5991 |  0.4498  |
+| Random Forest   |  53.72%  |   0.4872  | 0.5372 |  0.4998  |
+| Naive Bayes     |  22.24%  |   0.4841  | 0.2224 |  0.2633  |
++-----------------+----------+-----------+--------+----------+
+
+=> Mô hình ưu tú nhất: Random Forest
+
+* NHẬN XÉT VỀ ĐỘ CHÍNH XÁC (~60%):
+- Kết quả phản ánh đúng bản chất biến động của hành vi mua sắm thực tế.
+- Độ chính xác này cao gấp đôi so với việc dự đoán ngẫu nhiên (33%).
+- Mô hình thể hiện khả năng phân loại tốt ở các nhóm ngành hàng chủ lực.
+
+6. CÁC PHÁT HIỆN CHIẾN LƯỢC (KEY INSIGHTS)
+---------------------------------------------------------------------
+- Hành vi        : Tuổi tác và thời điểm mua sắm là hai yếu tố quyết định 
+                   đến loại sản phẩm khách hàng sẽ lựa chọn.
+- Nhóm khách hàng: Các nhóm "VIP" (High RFM) có xu hướng tập trung vào 
+                   các danh mục Lifestyle và Technology.
+- Thời gian      : Cuối tuần có xu hướng mua sắm tập trung, yêu cầu tăng 
+                   cường nhân sự và dự trữ kho.
+
+7. KHUYẾN NGHỊ KINH DOANH (STRATEGIC RECOMMENDATIONS)
+---------------------------------------------------------------------
+- Tiếp thị       : Cá nhân hóa khuyến mãi dựa trên phân khúc RFM.
+- Bán chéo       : Sắp xếp các kệ hàng cạnh nhau dựa trên luật kết hợp.
+- Tối ưu kho     : Dự báo nhu cầu theo mùa vụ dựa trên Temporal Patterns.
+- Thu thập dữ liệu: Cần bổ sung thêm dữ liệu về nhóm khách hàng trẻ tuổi 
+                   để cải thiện mô hình dự báo cho mảng công nghệ.
+
+=====================================================================

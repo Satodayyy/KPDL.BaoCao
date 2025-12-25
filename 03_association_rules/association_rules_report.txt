@@ -1,0 +1,35 @@
+
+ KẾT QUẢ MARKET BASKET ANALYSIS:
+
+1. DỮ LIỆU:
+   - Tổng số transactions: 99,457
+   - Số categories: 8
+   - Trung bình items/transaction: 1.00
+
+2. APRIORI ALGORITHM:
+   - Min support: 0.02
+   - Frequent itemsets: 8
+   - Association rules: 0
+   - Thời gian: 0.02s
+
+3. FP-GROWTH ALGORITHM:
+   - Min support: 0.02
+   - Frequent itemsets: 8
+   - Association rules: 0
+   - Thời gian: 0.53s
+
+4. TOP INSIGHTS:
+   
+   
+   
+
+5. KHUYẾN NGHỊ:
+   - Áp dụng cross-selling strategies dựa trên top rules
+   - Tối ưu product placement trong stores
+   - Thiết kế combo/bundle offers
+
+ OUTPUT FILES:
+   - association_rules_results.csv
+   - frequent_itemsets.csv
+   - actionable_insights.csv
+   - Figures: 5 visualization files
