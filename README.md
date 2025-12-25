@@ -136,6 +136,7 @@ kpdl-customer-shopping/
 │
 ├── final_report/                     # Báo cáo cuối cùng
     ├── final_report.pdf              # Báo cáo hoàn chỉnh 
+    ├── Poster.pdf                    # Poster 
     ├── presentation.pptx             # Slide thuyết trình
     └── final_summary_report.txt      # Auto-generated summary
 
