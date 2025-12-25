@@ -94,9 +94,14 @@ kpdl-customer-shopping/
 │   ├── clustering_results.csv        # Results
 │   └── figures/                      # Visualizations
 │       ├── 01_univariate_analysis.png
+│       ├── 02_bivariate_analysis.png
+│       ├── 03_temporal_analysis.png
+│       ├── 04_correlation_matrix.png
 │       ├── 05_elbow_method.png
 │       ├── 06_kmeans_clusters.png
-│       └── ...
+│       ├── 07_cluster_profiles_kmeans.png
+│       ├── 08_dendrogram.png
+│       └── 09_hierarchical_clusters.png
 │
 ├── 03_association_rules/             # Nguyễn Quốc Thuận
 │   ├── association_rules.ipynb       # Main notebook
