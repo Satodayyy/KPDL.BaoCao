@@ -102,7 +102,6 @@ kpdl-customer-shopping/
 │       ├── 07_cluster_profiles_kmeans.png
 │       ├── 08_dendrogram.png
 │       └── 09_hierarchical_clusters.png
-09_hierarchical_clusters.png
 │
 ├── 03_association_rules/             # Nguyễn Quốc Thuận
 │   ├── association_rules.ipynb       # Main notebook
