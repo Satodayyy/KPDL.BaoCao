@@ -1,6 +1,7 @@
 # Customer Shopping Data Mining Project
 
 **Đề tài Khai phá Dữ liệu - Data Mining Course**
+*Phân Tích Hành Vi Mua Sắm Khách Hàng*
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 ---
